@@ -20,30 +20,21 @@ export default function Home() {
           <div className="nav-menu-wrapper">
             <ul className="navbar-nav mr-auto" id="menu">
               <li className="nav-item submenu">
-                <a className="nav-link" href="index-2.html">Home</a>
+                <a className="nav-link" href="/">Home</a>
                 <ul className="sub-menu">
-                  <li className="nav-item">
-                    <a className="nav-link" href="index.html">Home - Image</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-3.html">Home - Slider</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-4.html">Home - Video</a>
-                  </li>
                 </ul>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="about.html">About Us</a>
+                <a className="nav-link" href="/about-us">About Us</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="service.html">Services</a>
+                <a className="nav-link" href="/services">Services</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="blog.html">Blog</a>
+                <a className="nav-link" href="/blogs">Blog</a>
               </li>
 
               <li className="nav-item submenu">
@@ -81,7 +72,7 @@ export default function Home() {
 
           {/* Let’s Start Button Start */}
           <div className="header-btn d-inline-flex">
-            <a href="contact.html" className="btn-default">Contact Us</a>
+            <a href="/contact-us" className="btn-default">Contact Us</a>
           </div>
           {/* Let’s Start Button End */}
         </div>
@@ -147,7 +138,8 @@ export default function Home() {
         <div className="about-image">
           <div className="about-img">
             <figure className="reveal">
-              <img src="images/about-us-img.png" alt="" />
+              {/* <img src="images/about-us-img.png" alt="" /> */}
+              <img src="/images/m2.png" alt="" />
             </figure>
           </div>
         </div>
@@ -259,7 +251,9 @@ export default function Home() {
             >
               <a href="#">
                 <figure>
-                  <img src="images/service-img-1.jpg" alt="" />
+                  {/* <img src="images/service-img-1.jpg" alt="" /> */}
+              <img src="images/n1.jpeg" alt="" />
+
                 </figure>
               </a>
             </div>
@@ -296,7 +290,9 @@ export default function Home() {
             >
               <a href="#">
                 <figure>
-                  <img src="images/service-img-2.jpg" alt="" />
+                  {/* <img src="images/service-img-2.jpg" alt="" /> */}
+                   <img src="images/n3.jpeg" alt="" />
+
                 </figure>
               </a>
             </div>
@@ -333,7 +329,9 @@ export default function Home() {
             >
               <a href="#">
                 <figure>
-                  <img src="images/service-img-3.jpg" alt="" />
+                  {/* <img src="images/service-img-3.jpg" alt="" /> */}
+                                    <img src="images/m1.jpeg" alt="" />
+
                 </figure>
               </a>
             </div>
@@ -370,7 +368,9 @@ export default function Home() {
             >
               <a href="#">
                 <figure>
-                  <img src="images/service-img-4.jpg" alt="" />
+                  {/* <img src="images/service-img-4.jpg" alt="" /> */}
+                   <img src="images/n6.jpeg" alt="" />
+
                 </figure>
               </a>
             </div>
@@ -467,7 +467,9 @@ export default function Home() {
       <div className="col-lg-4 col-md-6">
         <div className="why-choose-image">
           <figure className="image-anime reveal">
-            <img src="images/why-choose-img-1.jpg" alt="" />
+            {/* <img src="images/why-choose-img-1.jpg" alt="" /> */}
+              <img src="images/h5.jpeg" alt="" />
+
           </figure>
         </div>
       </div>
@@ -502,7 +504,9 @@ export default function Home() {
       <div className="col-lg-4 col-md-6">
         <div className="why-choose-image">
           <figure className="image-anime reveal">
-            <img src="images/why-choose-img-2.jpg" alt="" />
+            {/* <img src="images/why-choose-img-2.jpg" alt="" /> */}
+                        <img src="images/m1.jpeg" alt="" />
+
           </figure>
         </div>
       </div>
@@ -537,7 +541,9 @@ export default function Home() {
       <div className="col-lg-4 col-md-6">
         <div className="why-choose-image">
           <figure className="image-anime reveal">
-            <img src="images/why-choose-img-3.jpg" alt="" />
+            {/* <img src="images/why-choose-img-3.jpg" alt="" /> */}
+                        <img src="images/n4.jpeg" alt="" />
+
           </figure>
         </div>
       </div>
@@ -545,196 +551,6 @@ export default function Home() {
   </div>
 </div>
 {/* Why Choose Us Section End */}
-{/* Our Projects Section Start */}
-<div className="our-projects">
-  <div className="light-bg-section">
-    <div className="container-fluid">
-      <div className="row section-row">
-        <div className="col-lg-12">
-          {/* Section Title Start */}
-          <div className="section-title">
-            <h3 className="wow fadeInUp">our projects</h3>
-            <h2
-              className="text-anime-style-3"
-              data-cursor="-opaque"
-            >
-              Explore our diverse range of projects
-            </h2>
-            <p
-              className="wow fadeInUp"
-              data-wow-delay="0.25s"
-            >
-              We specialize in a wide range of construction services, including
-              residential, commercial, and industrial projects.
-            </p>
-          </div>
-          {/* Section Title End */}
-        </div>
-      </div>
-
-      <div className="row">
-        {/* Project Item 1 */}
-        <div className="col-lg-3 col-md-6">
-          <div
-            className="project-item wow fadeInUp"
-            data-wow-delay="0.25s"
-          >
-            <div
-              className="project-image"
-              data-cursor-text="View"
-            >
-              <a href="#">
-                <figure>
-                  <img src="images/our-project-1.jpg" alt="" />
-                </figure>
-              </a>
-            </div>
-
-            <div className="project-body">
-              <div className="project-body-title">
-                <h3>aspen heights</h3>
-              </div>
-
-              <div className="project-content">
-                <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
-                </p>
-                <div className="project-content-footer">
-                  <a href="#" className="readmore-btn">
-                    view more
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Project Item 2 */}
-        <div className="col-lg-3 col-md-6">
-          <div
-            className="project-item wow fadeInUp"
-            data-wow-delay="0.5s"
-          >
-            <div
-              className="project-image"
-              data-cursor-text="View"
-            >
-              <a href="#">
-                <figure>
-                  <img src="images/our-project-2.jpg" alt="" />
-                </figure>
-              </a>
-            </div>
-
-            <div className="project-body">
-              <div className="project-body-title">
-                <h3>forest hill towers</h3>
-              </div>
-
-              <div className="project-content">
-                <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
-                </p>
-                <div className="project-content-footer">
-                  <a href="#" className="readmore-btn">
-                    view more
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Project Item 3 */}
-        <div className="col-lg-3 col-md-6">
-          <div
-            className="project-item wow fadeInUp"
-            data-wow-delay="0.75s"
-          >
-            <div
-              className="project-image"
-              data-cursor-text="View"
-            >
-              <a href="#">
-                <figure>
-                  <img src="images/our-project-3.jpg" alt="" />
-                </figure>
-              </a>
-            </div>
-
-            <div className="project-body">
-              <div className="project-body-title">
-                <h3>bayside residences</h3>
-              </div>
-
-              <div className="project-content">
-                <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
-                </p>
-                <div className="project-content-footer">
-                  <a href="#" className="readmore-btn">
-                    view more
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Project Item 4 */}
-        <div className="col-lg-3 col-md-6">
-          <div
-            className="project-item wow fadeInUp"
-            data-wow-delay="1s"
-          >
-            <div
-              className="project-image"
-              data-cursor-text="View"
-            >
-              <a href="#">
-                <figure>
-                  <img src="images/our-project-4.jpg" alt="" />
-                </figure>
-              </a>
-            </div>
-
-            <div className="project-body">
-              <div className="project-body-title">
-                <h3>parkview plaza</h3>
-              </div>
-
-              <div className="project-content">
-                <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
-                </p>
-                <div className="project-content-footer">
-                  <a href="#" className="readmore-btn">
-                    view more
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Project Footer Btn */}
-        <div
-          className="project-footer-btn wow fadeInUp"
-          data-wow-delay="1.25s"
-        >
-          <a href="#" className="btn-default">
-            view all projects
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-{/* Our Projects Section End */}
 {/* Cta Box Section Start */}
 <div className="cta-box">
   <div className="container">
@@ -1004,7 +820,7 @@ export default function Home() {
             <div className="col-md-6 col-6">
               <div className="faqs-img-1">
                 <figure className="image-anime reveal">
-                  <img src="images/our-faqs-img-1.jpg" alt="" />
+                  <img src="images/m1.jpeg" alt="" />
                 </figure>
               </div>
             </div>
@@ -1012,7 +828,7 @@ export default function Home() {
             <div className="col-md-6 col-6">
               <div className="faqs-img-2">
                 <figure className="image-anime reveal">
-                  <img src="images/our-faqs-img-2.jpg" alt="" />
+                  <img src="images/m2.png" alt="" />
                 </figure>
               </div>
             </div>
@@ -1022,7 +838,7 @@ export default function Home() {
             <div className="col-md-6 col-6">
               <div className="faqs-img-1">
                 <figure className="image-anime reveal">
-                  <img src="images/our-faqs-img-3.jpg" alt="" />
+                  <img src="images/m3.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -1030,7 +846,7 @@ export default function Home() {
             <div className="col-md-6 col-6">
               <div className="faqs-img-2">
                 <figure className="image-anime reveal">
-                  <img src="images/our-faqs-img-4.jpg" alt="" />
+                  <img src="images/m4.jpg" alt="" />
                 </figure>
               </div>
             </div>
@@ -1181,11 +997,10 @@ export default function Home() {
 </div>
 {/* Our FAQs Section End */}
 {/* Our Blog Section Start */}
-<div className="our-blog">
+{/* <div className="our-blog">
   <div className="container">
     <div className="row section-row">
       <div className="col-lg-12">
-        {/* Section Title Start */}
         <div className="section-title">
           <h3 className="wow fadeInUp">news &amp; blog</h3>
           <h2
@@ -1202,12 +1017,10 @@ export default function Home() {
             residential, commercial, and industrial projects.
           </p>
         </div>
-        {/* Section Title End */}
       </div>
     </div>
 
     <div className="row">
-      {/* Blog Item 1 */}
       <div className="col-lg-4 col-md-6">
         <div
           className="blog-item wow fadeInUp"
@@ -1242,7 +1055,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Blog Item 2 */}
       <div className="col-lg-4 col-md-6">
         <div
           className="blog-item wow fadeInUp"
@@ -1277,7 +1089,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Blog Item 3 */}
       <div className="col-lg-4 col-md-6">
         <div
           className="blog-item wow fadeInUp"
@@ -1313,7 +1124,7 @@ export default function Home() {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 {/* Our Blog End */}
 {/* Contact Us Section Start */}
 <div className="contact-us">
