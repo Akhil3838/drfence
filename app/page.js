@@ -10,7 +10,7 @@ export default function Home() {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         {/* Logo Start */}
-        <a className="navbar-brand" href="index-2.html">
+        <a className="navbar-brand" href="/">
           <img src="images/logo.svg" alt="Logo" />
         </a>
         {/* Logo End */}
@@ -65,7 +65,7 @@ export default function Home() {
               </li>
 
               <li className="nav-item highlighted-menu">
-                <a className="nav-link" href="contact.html">Contact Us</a>
+                <a className="nav-link" href="/contact-us">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -94,20 +94,20 @@ export default function Home() {
         {/* Hero Content Start */}
         <div className="hero-content">
           <div className="section-title">
-            <h3 className="wow fadeInUp">welcome to builtup</h3>
+            <h3 className="wow fadeInUp">welcome to drfence</h3>
             <h1
               className="text-anime-style-3"
               data-cursor="-opaque"
             >
-              Building dreams with precision and excellence
+              Securing your property with quality fencing solutions
             </h1>
             <p
               className="wow fadeInUp"
               data-wow-delay="0.25s"
             >
-              we specialize in turning visions into reality with exceptional
-              craftsmanship and meticulous attention to detail. With years of
-              experience and a commitment to quality.
+              we specialize in providing exceptional fencing solutions with
+              meticulous attention to detail. With years of experience and a commitment
+              to quality craftsmanship.
             </p>
           </div>
 
@@ -156,16 +156,16 @@ export default function Home() {
               className="text-anime-style-3"
               data-cursor="-opaque"
             >
-              Crafting structures that last a lifetime
+              Installing fences that stand the test of time
             </h2>
             <p
               className="wow fadeInUp"
               data-wow-delay="0.25s"
             >
-              Crafting structures that last a lifetime requires a holistic
-              approach that integrates advanced materials, resilient design,
-              regular maintenance, and sustainability practices. By learning
-              from historical examples and leveraging modern technology.
+              Installing fences that stand the test of time requires a holistic
+              approach that integrates premium materials, durable design,
+              professional installation, and regular maintenance. By leveraging
+              modern techniques and quality craftsmanship.
             </p>
           </div>
           {/* Section Title End */}
@@ -176,9 +176,9 @@ export default function Home() {
             data-wow-delay="0.5s"
           >
             <ul>
-              <li>Comprehensive Services</li>
-              <li>Advanced Technology</li>
-              <li>Transparent Communication</li>
+              <li>Comprehensive Fencing Solutions</li>
+              <li>Premium Materials</li>
+              <li>Professional Installation</li>
             </ul>
           </div>
           {/* About Content Body End */}
@@ -224,14 +224,14 @@ export default function Home() {
               className="text-anime-style-3"
               data-cursor="-opaque"
             >
-              Our construction services
+              Our fencing services
             </h2>
             <p
               className="wow fadeInUp"
               data-wow-delay="0.25s"
             >
-              We specialize in a wide range of construction services, including
-              residential, commercial, and industrial projects.
+              We specialize in a wide range of fencing services, including
+              residential, commercial, and industrial fencing solutions.
             </p>
           </div>
           {/* Section Title End */}
@@ -260,13 +260,13 @@ export default function Home() {
 
             <div className="service-body">
               <div className="service-body-title">
-                <h3>building construction</h3>
+                <h3>residential fencing</h3>
               </div>
 
               <div className="service-content">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                  Our residential fencing services provide security and privacy
+                  for your home with quality materials and professional installation.
                 </p>
                 <div className="service-content-footer">
                   <a href="#" className="readmore-btn">
@@ -299,13 +299,13 @@ export default function Home() {
 
             <div className="service-body">
               <div className="service-body-title">
-                <h3>architecture design</h3>
+                <h3>commercial fencing</h3>
               </div>
 
               <div className="service-content">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                  Our commercial fencing solutions provide security and protection
+                  for businesses with durable materials and expert installation.
                 </p>
                 <div className="service-content-footer">
                   <a href="#" className="readmore-btn">
@@ -338,13 +338,13 @@ export default function Home() {
 
             <div className="service-body">
               <div className="service-body-title">
-                <h3>building renovation</h3>
+                <h3>fence repair & maintenance</h3>
               </div>
 
               <div className="service-content">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                  Our fence repair and maintenance services keep your fencing
+                  in excellent condition with regular upkeep and timely repairs.
                 </p>
                 <div className="service-content-footer">
                   <a href="#" className="readmore-btn">
@@ -377,13 +377,13 @@ export default function Home() {
 
             <div className="service-body">
               <div className="service-body-title">
-                <h3>building maintenance</h3>
+                <h3>custom fence design</h3>
               </div>
 
               <div className="service-content">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                  Our custom fence design services create unique fencing solutions
+                  tailored to your specific needs and property requirements.
                 </p>
                 <div className="service-content-footer">
                   <a href="#" className="readmore-btn">
@@ -447,18 +447,17 @@ export default function Home() {
             <img src="images/icon-why-choose-1.svg" alt="" />
           </div>
           <div className="why-choose-content">
-            <h3>innovation solutions</h3>
+            <h3>premium materials</h3>
             <p>
-              Simple actions make a difference. It starts and ends with each
-              employee striving to work safer every single day so they can
-              return.
+              We use only the highest quality fencing materials to ensure durability
+              and longevity. Every project is completed with precision and care.
             </p>
           </div>
           <div className="why-choose-counter">
             <h3>
               <span className="counter">800</span>+
             </h3>
-            <p>project complated</p>
+            <p>fences installed</p>
           </div>
         </div>
       </div>
@@ -486,16 +485,15 @@ export default function Home() {
           <div className="why-choose-content">
             <h3>quality craftsmanship</h3>
             <p>
-              Simple actions make a difference. It starts and ends with each
-              employee striving to work safer every single day so they can
-              return.
+              Our skilled team ensures every fence is installed with precision
+              and attention to detail, providing you with lasting security and value.
             </p>
           </div>
           <div className="why-choose-counter">
             <h3>
               <span className="counter">800</span>+
             </h3>
-            <p>project complated</p>
+            <p>fences installed</p>
           </div>
         </div>
       </div>
@@ -523,16 +521,15 @@ export default function Home() {
           <div className="why-choose-content">
             <h3>expertise and experience</h3>
             <p>
-              Simple actions make a difference. It starts and ends with each
-              employee striving to work safer every single day so they can
-              return.
+              With years of experience in the fencing industry, we bring
+              expertise and knowledge to every project, ensuring superior results.
             </p>
           </div>
           <div className="why-choose-counter">
             <h3>
               <span className="counter">800</span>+
             </h3>
-            <p>project complated</p>
+            <p>fences installed</p>
           </div>
         </div>
       </div>
@@ -562,12 +559,11 @@ export default function Home() {
             className="text-anime-style-3"
             data-cursor="-opaque"
           >
-            Let's bulid something great together!
+            Let's secure your property with quality fencing!
           </h2>
           <p className="wow fadeInUp">
-            Don't wait any longer to bring your construction dreams to life.
-            Partner with Builtup and experience unparalleled service and
-            quality.
+            Don't wait any longer to protect your property with professional fencing.
+            Partner with DrFence and experience unparalleled service and quality.
           </p>
         </div>
         {/* Section Title End */}
@@ -615,8 +611,8 @@ export default function Home() {
             className="wow fadeInUp"
             data-wow-delay="0.25s"
           >
-            We specialize in a wide range of construction services, including
-            residential, commercial, and industrial projects.
+            We specialize in a wide range of fencing services, including
+            residential, commercial, and industrial fencing solutions.
           </p>
         </div>
         {/* Section Title End */}
@@ -645,11 +641,11 @@ export default function Home() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        We specialize in a wide range of construction services,
+                        We specialize in a wide range of fencing services,
                         including residential, commercial, and industrial
-                        projects. From initial design to final inspection, we
-                        work closely with our clients to understand their unique
-                        needs and vision.
+                        fencing solutions. From initial consultation to final
+                        installation, we work closely with our clients to understand
+                        their unique needs and requirements.
                       </p>
                     </div>
                   </div>
@@ -681,11 +677,11 @@ export default function Home() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        We specialize in a wide range of construction services,
+                        We specialize in a wide range of fencing services,
                         including residential, commercial, and industrial
-                        projects. From initial design to final inspection, we
-                        work closely with our clients to understand their unique
-                        needs and vision.
+                        fencing solutions. From initial consultation to final
+                        installation, we work closely with our clients to understand
+                        their unique needs and requirements.
                       </p>
                     </div>
                   </div>
@@ -717,11 +713,11 @@ export default function Home() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        We specialize in a wide range of construction services,
+                        We specialize in a wide range of fencing services,
                         including residential, commercial, and industrial
-                        projects. From initial design to final inspection, we
-                        work closely with our clients to understand their unique
-                        needs and vision.
+                        fencing solutions. From initial consultation to final
+                        installation, we work closely with our clients to understand
+                        their unique needs and requirements.
                       </p>
                     </div>
                   </div>
@@ -753,11 +749,11 @@ export default function Home() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        We specialize in a wide range of construction services,
+                        We specialize in a wide range of fencing services,
                         including residential, commercial, and industrial
-                        projects. From initial design to final inspection, we
-                        work closely with our clients to understand their unique
-                        needs and vision.
+                        fencing solutions. From initial consultation to final
+                        installation, we work closely with our clients to understand
+                        their unique needs and requirements.
                       </p>
                     </div>
                   </div>
@@ -804,8 +800,8 @@ export default function Home() {
             className="wow fadeInUp"
             data-wow-delay="0.25s"
           >
-            We specialize in a wide range of construction services, including
-            residential, commercial, and industrial projects.
+            We specialize in a wide range of fencing services, including
+            residential, commercial, and industrial fencing solutions.
           </p>
         </div>
         {/* Section Title End */}
@@ -887,8 +883,8 @@ export default function Home() {
             >
               <div className="accordion-body">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                  Yes, we offer free, no-obligation quotes for all fencing projects.
+                  Our team will assess your property and provide a detailed estimate.
                 </p>
               </div>
             </div>
@@ -908,7 +904,7 @@ export default function Home() {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                What services do you offer?
+                What types of fencing do you offer?
               </button>
             </h2>
             <div
@@ -919,8 +915,8 @@ export default function Home() {
             >
               <div className="accordion-body">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                  Yes, we offer free, no-obligation quotes for all fencing projects.
+                  Our team will assess your property and provide a detailed estimate.
                 </p>
               </div>
             </div>
@@ -940,7 +936,7 @@ export default function Home() {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                What types of projects do you specialize in?
+                What types of properties do you work with?
               </button>
             </h2>
             <div
@@ -951,8 +947,8 @@ export default function Home() {
             >
               <div className="accordion-body">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                  Yes, we offer free, no-obligation quotes for all fencing projects.
+                  Our team will assess your property and provide a detailed estimate.
                 </p>
               </div>
             </div>
@@ -972,7 +968,7 @@ export default function Home() {
                 aria-expanded="false"
                 aria-controls="collapsefour"
               >
-                How do I start a project with your company?
+                How long does fence installation take?
               </button>
             </h2>
             <div
@@ -983,8 +979,8 @@ export default function Home() {
             >
               <div className="accordion-body">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                  Yes, we offer free, no-obligation quotes for all fencing projects.
+                  Our team will assess your property and provide a detailed estimate.
                 </p>
               </div>
             </div>
@@ -1013,8 +1009,8 @@ export default function Home() {
             className="wow fadeInUp"
             data-wow-delay="0.25s"
           >
-            We specialize in a wide range of construction services, including
-            residential, commercial, and industrial projects.
+            We specialize in a wide range of fencing services, including
+            residential, commercial, and industrial fencing solutions.
           </p>
         </div>
       </div>
@@ -1075,7 +1071,7 @@ export default function Home() {
             <div className="post-item-body">
               <h2>
                 <a href="#">
-                  The Future of Sustainable Construction Innovations
+                  The Future of Sustainable Fencing Materials
                 </a>
               </h2>
             </div>
@@ -1282,8 +1278,8 @@ export default function Home() {
 
           <div className="footer-content">
             <p>
-              Our post-construction services gives you peace of mind knowing
-              that we are still here for you even after.
+              Our professional fencing services provide security and peace of mind
+              for your property with quality materials and expert installation.
             </p>
           </div>
         </div>
@@ -1294,11 +1290,11 @@ export default function Home() {
         <div className="footer-links">
           <h3>our services</h3>
           <ul>
-            <li><a href="#">building construction</a></li>
-            <li><a href="#">architecture design</a></li>
-            <li><a href="#">building renovation</a></li>
-            <li><a href="#">flooring &amp; roofing</a></li>
-            <li><a href="#">building maintenance</a></li>
+            <li><a href="#">residential fencing</a></li>
+            <li><a href="#">commercial fencing</a></li>
+            <li><a href="#">fence repair &amp; maintenance</a></li>
+            <li><a href="#">custom fence design</a></li>
+            <li><a href="#">industrial fencing</a></li>
           </ul>
         </div>
       </div>
@@ -1353,7 +1349,7 @@ export default function Home() {
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-7">
           <div className="footer-copyright-text">
-            <p>Copyright © 2024 BuiltUp. All Rights Reserved.</p>
+            <p>Copyright © 2024 DrFence. All Rights Reserved.</p>
           </div>
         </div>
 

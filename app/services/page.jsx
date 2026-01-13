@@ -9,7 +9,7 @@ function page() {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         {/* Logo Start */}
-        <a className="navbar-brand" href="index-2.html">
+        <a className="navbar-brand" href="/">
           <img src="images/logo.svg" alt="Logo" />
         </a>
         {/* Logo End */}
@@ -19,30 +19,21 @@ function page() {
           <div className="nav-menu-wrapper">
             <ul className="navbar-nav mr-auto" id="menu">
               <li className="nav-item submenu">
-                <a className="nav-link" href="index-2.html">Home</a>
+                <a className="nav-link" href="/">Home</a>
                 <ul className="sub-menu">
-                  <li className="nav-item">
-                    <a className="nav-link" href="index.html">Home - Image</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-3.html">Home - Slider</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-4.html">Home - Video</a>
-                  </li>
                 </ul>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="about.html">About Us</a>
+                <a className="nav-link" href="/about-us">About Us</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="service.html">Services</a>
+                <a className="nav-link" href="/services">Services</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="blog.html">Blog</a>
+                <a className="nav-link" href="/blogs">Blog</a>
               </li>
 
               <li className="nav-item submenu">
@@ -79,7 +70,7 @@ function page() {
               </li>
 
               <li className="nav-item highlighted-menu">
-                <a className="nav-link" href="contact.html">
+                <a className="nav-link" href="/contact-us">
                   Contact Us
                 </a>
               </li>
@@ -88,7 +79,7 @@ function page() {
 
           {/* Header Button */}
           <div className="header-btn d-inline-flex">
-            <a href="contact.html" className="btn-default">
+            <a href="/contact-us" className="btn-default">
               Contact Us
             </a>
           </div>
@@ -120,7 +111,7 @@ function page() {
           <nav className="wow fadeInUp">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index-2.html">home</a>
+                <a href="/">home</a>
               </li>
               <li
                 className="breadcrumb-item active"
@@ -146,11 +137,11 @@ function page() {
         <div className="section-title">
           <h3 className="wow fadeInUp">our services</h3>
           <h2 className="text-anime-style-3" data-cursor="-opaque">
-            Our construction services
+            Our fencing services
           </h2>
           <p className="wow fadeInUp" data-wow-delay="0.25s">
-            We specialize in a wide range of construction services, including
-            residential, commercial, and industrial projects.
+            We specialize in a wide range of fencing services, including
+            residential, commercial, and industrial fencing solutions.
           </p>
         </div>
         {/* Section Title End */}
@@ -171,13 +162,13 @@ function page() {
 
           <div className="service-body">
             <div className="service-body-title">
-              <h3>building construction</h3>
+              <h3>residential fencing</h3>
             </div>
 
             <div className="service-content">
               <p>
-                Our post-construction services gives you peace of mind knowing
-                that we are still here for you even after.
+                Our residential fencing services provide security and privacy
+                for your home with quality materials and professional installation.
               </p>
               <div className="service-content-footer">
                 <a href="#" className="readmore-btn">view more</a>
@@ -200,13 +191,13 @@ function page() {
 
           <div className="service-body">
             <div className="service-body-title">
-              <h3>architecture design</h3>
+              <h3>commercial fencing</h3>
             </div>
 
             <div className="service-content">
               <p>
-                Our post-construction services gives you peace of mind knowing
-                that we are still here for you even after.
+                Our commercial fencing solutions provide security and protection
+                for businesses with durable materials and expert installation.
               </p>
               <div className="service-content-footer">
                 <a href="#" className="readmore-btn">view more</a>
@@ -229,13 +220,13 @@ function page() {
 
           <div className="service-body">
             <div className="service-body-title">
-              <h3>building renovation</h3>
+              <h3>fence repair &amp; maintenance</h3>
             </div>
 
             <div className="service-content">
               <p>
-                Our post-construction services gives you peace of mind knowing
-                that we are still here for you even after.
+                Our fence repair and maintenance services keep your fencing
+                in excellent condition with regular upkeep and timely repairs.
               </p>
               <div className="service-content-footer">
                 <a href="#" className="readmore-btn">view more</a>
@@ -258,13 +249,13 @@ function page() {
 
           <div className="service-body">
             <div className="service-body-title">
-              <h3>flooring &amp; roofing</h3>
+              <h3>custom fence design</h3>
             </div>
 
             <div className="service-content">
               <p>
-                Our post-construction services gives you peace of mind knowing
-                that we are still here for you even after.
+                Our custom fence design services create unique fencing solutions
+                tailored to your specific needs and property requirements.
               </p>
               <div className="service-content-footer">
                 <a href="#" className="readmore-btn">view more</a>
@@ -287,13 +278,13 @@ function page() {
 
           <div className="service-body">
             <div className="service-body-title">
-              <h3>building maintenance</h3>
+              <h3>industrial fencing</h3>
             </div>
 
             <div className="service-content">
               <p>
-                Our post-construction services gives you peace of mind knowing
-                that we are still here for you even after.
+                Our industrial fencing solutions provide maximum security and
+                protection for industrial facilities and warehouses.
               </p>
               <div className="service-content-footer">
                 <a href="#" className="readmore-btn">view more</a>
@@ -316,13 +307,13 @@ function page() {
 
           <div className="service-body">
             <div className="service-body-title">
-              <h3>project management</h3>
+              <h3>security fencing</h3>
             </div>
 
             <div className="service-content">
               <p>
-                Our post-construction services gives you peace of mind knowing
-                that we are still here for you even after.
+                Our security fencing solutions provide enhanced protection
+                with high-quality materials designed for maximum security.
               </p>
               <div className="service-content-footer">
                 <a href="#" className="readmore-btn">view more</a>
@@ -346,16 +337,16 @@ function page() {
           className="text-anime-style-3"
           data-cursor="-opaque"
         >
-          Building the future on a foundation of excellence
+          Securing properties with excellence in fencing
         </h2>
         <p
           className="wow fadeInUp"
           data-wow-delay="0.25s"
         >
-          We specialize in a wide range of construction services, including
-          residential, commercial, and industrial projects. From initial design
-          to final inspection, we work closely with our clients to understand
-          their unique needs and vision.
+          We specialize in a wide range of fencing services, including
+          residential, commercial, and industrial fencing solutions. From initial
+          consultation to final installation, we work closely with our clients to
+          understand their unique needs and requirements.
         </p>
       </div>
       {/* Section Title End */}
@@ -369,7 +360,7 @@ function page() {
             <h3>
               <span className="counter">99</span>%
             </h3>
-            <p>building control approval rate</p>
+            <p>customer satisfaction rate</p>
           </div>
         </div>
       </div>
@@ -381,7 +372,7 @@ function page() {
             <h3>
               <span className="counter">320</span>+
             </h3>
-            <p>active projects in construction management</p>
+            <p>active fencing projects</p>
           </div>
         </div>
       </div>
@@ -393,7 +384,7 @@ function page() {
             <h3>
               <span className="counter">200</span>+
             </h3>
-            <p>completed projects every year</p>
+            <p>fences installed every year</p>
           </div>
         </div>
       </div>
@@ -405,7 +396,7 @@ function page() {
             <h3>
               <span className="counter">4.253</span>
             </h3>
-            <p>million euros turnover in 2020</p>
+            <p>miles of fencing installed</p>
           </div>
         </div>
       </div>
@@ -424,12 +415,11 @@ function page() {
             className="text-anime-style-3"
             data-cursor="-opaque"
           >
-            Let's bulid something great together!
+            Let's secure your property with quality fencing!
           </h2>
           <p className="wow fadeInUp">
-            Don't wait any longer to bring your construction dreams to life.
-            Partner with Builtup and experience unparalleled service and
-            quality.
+            Don't wait any longer to protect your property with professional fencing.
+            Partner with DrFence and experience unparalleled service and quality.
           </p>
         </div>
         {/* Section Title End */}
@@ -615,8 +605,8 @@ function page() {
 
           <div className="footer-content">
             <p>
-              Our post-construction services gives you peace of mind knowing that
-              we are still here for you even after.
+              Our professional fencing services provide security and peace of mind
+              for your property with quality materials and expert installation.
             </p>
           </div>
         </div>
@@ -627,11 +617,11 @@ function page() {
         <div className="footer-links">
           <h3>our services</h3>
           <ul>
-            <li><a href="#">building construction</a></li>
-            <li><a href="#">architecture design</a></li>
-            <li><a href="#">building renovation</a></li>
-            <li><a href="#">flooring &amp; roofing</a></li>
-            <li><a href="#">building maintenance</a></li>
+            <li><a href="#">residential fencing</a></li>
+            <li><a href="#">commercial fencing</a></li>
+            <li><a href="#">fence repair &amp; maintenance</a></li>
+            <li><a href="#">custom fence design</a></li>
+            <li><a href="#">industrial fencing</a></li>
           </ul>
         </div>
       </div>
@@ -684,7 +674,7 @@ function page() {
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-7">
           <div className="footer-copyright-text">
-            <p>Copyright © 2024 BuiltUp. All Rights Reserved.</p>
+            <p>Copyright © 2024 DrFence. All Rights Reserved.</p>
           </div>
         </div>
 

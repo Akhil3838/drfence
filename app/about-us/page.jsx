@@ -9,7 +9,7 @@ function page() {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         {/* Logo Start */}
-        <a className="navbar-brand" href="index-2.html">
+        <a className="navbar-brand" href="/">
           <img src="images/logo.svg" alt="Logo" />
         </a>
         {/* Logo End */}
@@ -19,30 +19,21 @@ function page() {
           <div className="nav-menu-wrapper">
             <ul className="navbar-nav mr-auto" id="menu">
               <li className="nav-item submenu">
-                <a className="nav-link" href="index-2.html">Home</a>
+                <a className="nav-link" href="/">Home</a>
                 <ul className="sub-menu">
-                  <li className="nav-item">
-                    <a className="nav-link" href="index.html">Home - Image</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-3.html">Home - Slider</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-4.html">Home - Video</a>
-                  </li>
                 </ul>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="about.html">About Us</a>
+                <a className="nav-link" href="/about-us">About Us</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="service.html">Services</a>
+                <a className="nav-link" href="/services">Services</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="blog.html">Blog</a>
+                <a className="nav-link" href="/blogs">Blog</a>
               </li>
 
               <li className="nav-item submenu">
@@ -79,7 +70,7 @@ function page() {
               </li>
 
               <li className="nav-item highlighted-menu">
-                <a className="nav-link" href="contact.html">
+                <a className="nav-link" href="/contact-us">
                   Contact Us
                 </a>
               </li>
@@ -88,7 +79,7 @@ function page() {
 
           {/* Header Button */}
           <div className="header-btn d-inline-flex">
-            <a href="contact.html" className="btn-default">
+            <a href="/contact-us" className="btn-default">
               Contact Us
             </a>
           </div>
@@ -120,7 +111,7 @@ function page() {
           <nav className="wow fadeInUp">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index-2.html">home</a>
+                <a href="/">home</a>
               </li>
               <li
                 className="breadcrumb-item active"
@@ -146,7 +137,7 @@ function page() {
         <div className="about-us-image">
           <div className="about-us-img">
             <figure className="reveal">
-              <img src="images/about-us-img.png" alt="" />
+              <img src="images/m4.jpg" alt="" />
             </figure>
           </div>
         </div>
@@ -163,16 +154,16 @@ function page() {
               className="text-anime-style-3"
               data-cursor="-opaque"
             >
-              Crafting structures that last a lifetime
+              Installing fences that stand the test of time
             </h2>
             <p
               className="wow fadeInUp"
               data-wow-delay="0.25s"
             >
-              Crafting structures that last a lifetime requires a holistic
-              approach that integrates advanced materials, resilient design,
-              regular maintenance, and sustainability practices. By learning
-              from historical examples and leveraging modern technology.
+              Installing fences that stand the test of time requires a holistic
+              approach that integrates premium materials, durable design,
+              professional installation, and regular maintenance. By leveraging
+              modern techniques and quality craftsmanship.
             </p>
           </div>
           {/* Section Title End */}
@@ -183,9 +174,9 @@ function page() {
             data-wow-delay="0.5s"
           >
             <ul>
-              <li>Comprehensive Services</li>
-              <li>Advanced Technology</li>
-              <li>Transparent Communication</li>
+              <li>Comprehensive Fencing Solutions</li>
+              <li>Premium Materials</li>
+              <li>Professional Installation</li>
             </ul>
           </div>
           {/* About Content Body End */}
@@ -227,7 +218,7 @@ function page() {
         <div className="company-history-image">
           <div className="company-history-img">
             <figure className="image-anime reveal">
-              <img src="images/company-history-img.jpg" alt="" />
+              <img src="images/n7.jpeg" alt="" />
             </figure>
           </div>
 
@@ -254,7 +245,7 @@ function page() {
               className="text-anime-style-3"
               data-cursor="-opaque"
             >
-              Crafting structures that last a lifetime
+              Installing fences that stand the test of time
             </h2>
           </div>
           {/* Section Title End */}
@@ -265,20 +256,20 @@ function page() {
               className="wow fadeInUp"
               data-wow-delay="0.25s"
             >
-              We specialize in a wide range of construction services, including
-              residential, commercial, and industrial projects. From initial
-              design to final inspection, we work closely with our clients to
-              understand their unique needs and vision.
+              We specialize in a wide range of fencing services, including
+              residential, commercial, and industrial fencing solutions. From initial
+              consultation to final installation, we work closely with our clients to
+              understand their unique needs and requirements.
             </p>
 
             <p
               className="wow fadeInUp"
               data-wow-delay="0.5s"
             >
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters.
+              With years of experience in the fencing industry, we have built a
+              reputation for quality workmanship, reliable service, and customer
+              satisfaction. Our team is committed to delivering exceptional results
+              on every project.
             </p>
           </div>
           {/* Company History Body End */}
@@ -302,9 +293,8 @@ function page() {
           <div className="mission-vision-content">
             <h3>our mission</h3>
             <p>
-              Simple actions make a difference. It starts and ends with each
-              employee striving to work safer every single day so they can
-              return.
+              To provide exceptional fencing solutions that protect and enhance
+              properties while delivering outstanding customer service and value.
             </p>
           </div>
         </div>
@@ -323,9 +313,8 @@ function page() {
           <div className="mission-vision-content">
             <h3>our vision</h3>
             <p>
-              Simple actions make a difference. It starts and ends with each
-              employee striving to work safer every single day so they can
-              return.
+              To be the leading fencing company known for quality craftsmanship,
+              innovative solutions, and exceptional customer satisfaction.
             </p>
           </div>
         </div>
@@ -344,9 +333,8 @@ function page() {
           <div className="mission-vision-content">
             <h3>our values</h3>
             <p>
-              Simple actions make a difference. It starts and ends with each
-              employee striving to work safer every single day so they can
-              return.
+              Quality, integrity, and customer satisfaction are at the core of
+              everything we do. We are committed to excellence in every project.
             </p>
           </div>
         </div>
@@ -406,16 +394,16 @@ function page() {
           className="text-anime-style-3"
           data-cursor="-opaque"
         >
-          Building the future on a foundation of excellence
+          Securing properties with excellence in fencing
         </h2>
         <p
           className="wow fadeInUp"
           data-wow-delay="0.25s"
         >
-          We specialize in a wide range of construction services, including
-          residential, commercial, and industrial projects. From initial design
-          to final inspection, we work closely with our clients to understand
-          their unique needs and vision.
+          We specialize in a wide range of fencing services, including
+          residential, commercial, and industrial fencing solutions. From initial
+          consultation to final installation, we work closely with our clients to
+          understand their unique needs and requirements.
         </p>
       </div>
       {/* Section Title End */}
@@ -429,7 +417,7 @@ function page() {
             <h3>
               <span className="counter">99</span>%
             </h3>
-            <p>buildings control approval rate</p>
+            <p>customer satisfaction rate</p>
           </div>
         </div>
       </div>
@@ -441,7 +429,7 @@ function page() {
             <h3>
               <span className="counter">320</span>+
             </h3>
-            <p>active construction management</p>
+            <p>active fencing projects</p>
           </div>
         </div>
       </div>
@@ -453,7 +441,7 @@ function page() {
             <h3>
               <span className="counter">200</span>+
             </h3>
-            <p>completed projects every year</p>
+            <p>fences installed every year</p>
           </div>
         </div>
       </div>
@@ -465,7 +453,7 @@ function page() {
             <h3>
               <span className="counter">4.253</span>
             </h3>
-            <p>million euros turnover in 2020</p>
+            <p>miles of fencing installed</p>
           </div>
         </div>
       </div>
@@ -484,12 +472,11 @@ function page() {
             className="text-anime-style-3"
             data-cursor="-opaque"
           >
-            Let's bulid something great together!
+            Let's secure your property with quality fencing!
           </h2>
           <p className="wow fadeInUp">
-            Don't wait any longer to bring your construction dreams to life.
-            Partner with Builtup and experience unparalleled service and
-            quality.
+            Don't wait any longer to protect your property with professional fencing.
+            Partner with DrFence and experience unparalleled service and quality.
           </p>
         </div>
         {/* Section Title End */}
@@ -536,8 +523,8 @@ function page() {
           className="wow fadeInUp"
           data-wow-delay="0.25s"
         >
-          We specialize in a wide range of construction services, including
-          residential, commercial, and industrial projects.
+          We specialize in a wide range of fencing services, including
+          residential, commercial, and industrial fencing solutions.
         </p>
       </div>
       {/* Section Title End */}
@@ -559,7 +546,7 @@ function page() {
           <div className="team-body">
             <div className="team-content">
               <h3>benjamin miller</h3>
-              <p>project manager</p>
+              <p>fencing specialist</p>
             </div>
 
             <div className="team-social-icon">
@@ -600,7 +587,7 @@ function page() {
           <div className="team-body">
             <div className="team-content">
               <h3>jane smith</h3>
-              <p>lead architect</p>
+              <p>fence design consultant</p>
             </div>
 
             <div className="team-social-icon">
@@ -641,7 +628,7 @@ function page() {
           <div className="team-body">
             <div className="team-content">
               <h3>mike johnson</h3>
-              <p>chief engineer</p>
+              <p>installation supervisor</p>
             </div>
 
             <div className="team-social-icon">
@@ -826,8 +813,8 @@ function page() {
 
           <div className="footer-content">
             <p>
-              Our post-construction services gives you peace of mind knowing that
-              we are still here for you even after.
+              Our professional fencing services provide security and peace of mind
+              for your property with quality materials and expert installation.
             </p>
           </div>
         </div>
@@ -838,11 +825,11 @@ function page() {
         <div className="footer-links">
           <h3>our services</h3>
           <ul>
-            <li><a href="#">building construction</a></li>
-            <li><a href="#">architecture design</a></li>
-            <li><a href="#">building renovation</a></li>
-            <li><a href="#">flooring &amp; roofing</a></li>
-            <li><a href="#">building maintenance</a></li>
+            <li><a href="#">residential fencing</a></li>
+            <li><a href="#">commercial fencing</a></li>
+            <li><a href="#">fence repair &amp; maintenance</a></li>
+            <li><a href="#">custom fence design</a></li>
+            <li><a href="#">industrial fencing</a></li>
           </ul>
         </div>
       </div>
@@ -895,7 +882,7 @@ function page() {
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-7">
           <div className="footer-copyright-text">
-            <p>Copyright © 2024 BuiltUp. All Rights Reserved.</p>
+            <p>Copyright © 2024 DrFence. All Rights Reserved.</p>
           </div>
         </div>
 

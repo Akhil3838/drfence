@@ -9,7 +9,7 @@ function page() {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         {/* Logo Start */}
-        <a className="navbar-brand" href="index-2.html">
+        <a className="navbar-brand" href="/">
           <img src="images/logo.svg" alt="Logo" />
         </a>
         {/* Logo End */}
@@ -19,30 +19,21 @@ function page() {
           <div className="nav-menu-wrapper">
             <ul className="navbar-nav mr-auto" id="menu">
               <li className="nav-item submenu">
-                <a className="nav-link" href="index-2.html">Home</a>
+                <a className="nav-link" href="/">Home</a>
                 <ul className="sub-menu">
-                  <li className="nav-item">
-                    <a className="nav-link" href="index.html">Home - Image</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-3.html">Home - Slider</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="index-4.html">Home - Video</a>
-                  </li>
                 </ul>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="about.html">About Us</a>
+                <a className="nav-link" href="/about-us">About Us</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="service.html">Services</a>
+                <a className="nav-link" href="/services">Services</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="blog.html">Blog</a>
+                <a className="nav-link" href="/blogs">Blog</a>
               </li>
 
               <li className="nav-item submenu">
@@ -79,7 +70,7 @@ function page() {
               </li>
 
               <li className="nav-item highlighted-menu">
-                <a className="nav-link" href="contact.html">
+                <a className="nav-link" href="/contact-us">
                   Contact Us
                 </a>
               </li>
@@ -88,7 +79,7 @@ function page() {
 
           {/* Header Button */}
           <div className="header-btn d-inline-flex">
-            <a href="contact.html" className="btn-default">
+            <a href="/contact-us" className="btn-default">
               Contact Us
             </a>
           </div>
@@ -120,7 +111,7 @@ function page() {
           <nav className="wow fadeInUp">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index-2.html">home</a>
+                <a href="/">home</a>
               </li>
               <li
                 className="breadcrumb-item active"
@@ -155,7 +146,7 @@ function page() {
           <div className="post-item-content">
             <div className="post-item-body">
               <h2>
-                <a href="#">10 Essential Tips for Choosing the Right Builder</a>
+                <a href="#">10 Essential Tips for Choosing the Right Fencing Company</a>
               </h2>
             </div>
 
@@ -180,7 +171,7 @@ function page() {
           <div className="post-item-content">
             <div className="post-item-body">
               <h2>
-                <a href="#">The Future of Sustainable Construction Innovations</a>
+                <a href="#">The Future of Sustainable Fencing Materials</a>
               </h2>
             </div>
 
@@ -205,7 +196,7 @@ function page() {
           <div className="post-item-content">
             <div className="post-item-body">
               <h2>
-                <a href="#">How to Design Your Dream Home: A Step-by-Step Guide</a>
+                <a href="#">How to Choose the Perfect Fence for Your Property: A Guide</a>
               </h2>
             </div>
 
@@ -230,7 +221,7 @@ function page() {
           <div className="post-item-content">
             <div className="post-item-body">
               <h2>
-                <a href="#">Renovation vs. New Construction</a>
+                <a href="#">Fence Repair vs. New Installation: What's Best for You?</a>
               </h2>
             </div>
 
@@ -255,7 +246,7 @@ function page() {
           <div className="post-item-content">
             <div className="post-item-body">
               <h2>
-                <a href="#">Top 5 Modern Home Design Trends for 2024</a>
+                <a href="#">Top 5 Modern Fencing Trends for 2024</a>
               </h2>
             </div>
 
@@ -280,7 +271,7 @@ function page() {
           <div className="post-item-content">
             <div className="post-item-body">
               <h2>
-                <a href="#">The Role of Technology in Modern Construction</a>
+                <a href="#">The Role of Technology in Modern Fencing Installation</a>
               </h2>
             </div>
 
@@ -328,8 +319,8 @@ function page() {
 
           <div className="footer-content">
             <p>
-              Our post-construction services gives you peace of mind knowing that
-              we are still here for you even after.
+              Our professional fencing services provide security and peace of mind
+              for your property with quality materials and expert installation.
             </p>
           </div>
         </div>
@@ -340,11 +331,11 @@ function page() {
         <div className="footer-links">
           <h3>our services</h3>
           <ul>
-            <li><a href="#">building construction</a></li>
-            <li><a href="#">architecture design</a></li>
-            <li><a href="#">building renovation</a></li>
-            <li><a href="#">flooring & roofing</a></li>
-            <li><a href="#">building maintenance</a></li>
+            <li><a href="#">residential fencing</a></li>
+            <li><a href="#">commercial fencing</a></li>
+            <li><a href="#">fence repair &amp; maintenance</a></li>
+            <li><a href="#">custom fence design</a></li>
+            <li><a href="#">industrial fencing</a></li>
           </ul>
         </div>
       </div>
@@ -397,7 +388,7 @@ function page() {
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-7">
           <div className="footer-copyright-text">
-            <p>Copyright © 2024 BuiltUp. All Rights Reserved.</p>
+            <p>Copyright © 2024 DrFence. All Rights Reserved.</p>
           </div>
         </div>
 

@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Builtup - Construction HTML Template",
-  description: "",
-  keywords: "",
-  author: "Awaiken",
+  title: "DrFence - Professional Fencing Solutions",
+  description: "Professional fencing services for residential, commercial, and industrial properties. Quality materials, expert installation, and exceptional customer service.",
+  keywords: "fencing, fence installation, residential fencing, commercial fencing, fence repair",
+  author: "DrFence",
 };
 
 export default function RootLayout({ children }) {
